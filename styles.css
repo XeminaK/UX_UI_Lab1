@@ -1,20 +1,20 @@
 .container {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 95vh;
+    height: 100vh;
 }
 
 .nav {
     width: 100%;
-    border: 1px solid black;
+    border: thick solid #373F47;
     height: 30%; 
     display: flex;
     flex-direction: column;
+    background-color: #797596;
 }  
 
 a {
-    border: 1px solid black;
+    border: thick solid #373F47;
     font-size: 1.5rem;
     width: 100%;
     display: flex;
@@ -22,53 +22,55 @@ a {
     align-items: center;
     height: 40px;
     text-decoration: none; 
-    
+    color: #C3C9E9; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .right {
     height: 70%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F2F3F4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .info {
-    border: 1px solid blue;
     height: 90%;
     width: 90%;
-    /*display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: space-around;  */
 } 
 
-/*you don't need this */
 .topInfo {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-} 
+}  
 
 .idPicture {
-    border: 1px solid black;
+    border: 1px solid #373F47;
     width: 50%;
     height: 50%;
 } 
 
 .idInfo {
-    border: 1px solid black;
+    border: 1px solid #373F47;
     width: 100%;
     text-align: center;
+    background-color: #C3C9E9;
+    color: #373F47;
 }
 
 .bottomInfo {
-    border: 1px solid black;
+    border: 1px solid #373F47;
     width: 100%;
     text-align: center;
+    background-color: #C3C9E9;
 } 
 
+.bottomInfo p {
+    color: #373F47;
+}
 
 
 @media only screen and (min-width: 1000px) {
@@ -91,6 +93,7 @@ a {
         align-items: center;
         height: 60px;
         text-decoration: none; 
+        background-color: #373F47; 
     }
     
     .right {
@@ -103,18 +106,16 @@ a {
     }
     
     .info {
-        color: blue;
-        border: 1px solid black;
         height: 500px;
         width: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #797596;
     }
     
     .topInfo {
         color: purple;
-        border: 1px solid black;
         height: 50%;
         flex-direction: row;
         justify-content: space-around; 
@@ -122,20 +123,15 @@ a {
     }
     
     .bottomInfo {
-        color: orange;
-        border: 1px solid black;
-        height: 50%;
-        width: 90%;
+        width: 100%;
     }
     
     .idPicture {
-        border: 1px solid red;
         height: 90%;
         width: 40%;
     }
     
     .idInfo {
-        border: 1px solid red;
         height: 90%;
         width: 40%;
     }
