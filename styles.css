@@ -26,6 +26,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:hover {
+    background-color: #6C91C2;
+}
+
 .right {
     height: 70%;
     display: flex;
@@ -135,4 +139,5 @@ a {
         height: 90%;
         width: 40%;
     }
+
 }
